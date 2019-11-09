@@ -131,3 +131,4 @@ def translate_text():
     return jsonify({'text': translate(request.form['text'],
                                       request.form['source_language'],
                                       request.form['dest_language'])})
+
